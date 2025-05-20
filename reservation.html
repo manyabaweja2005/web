@@ -1,0 +1,112 @@
+<html>
+<head>
+<title>www.title.com</title>
+<link rel="stylesheet" href="style.css"/>
+<script>
+	function validform(){
+	var firstname=document.getElementById("firstname").value;
+	var lastname=document.getElementById("lastname").value;
+	var phonenumber=document.getElementById("phonenumber").value;
+	var gmailaddress=document.getElementById("gmail").value;
+    var time = document.getElementById("time").value;
+    var date = document.getElementById("date").value;
+	  if(firstname =="" || lastname == "" || phonenumber == "" || gmail==""){
+        alert("All fields must be filled")
+      }
+	  else{
+		alert("Your table has been reserved on " + date + " at " + time);
+	  }
+		}
+
+   </script>
+
+</head>
+<body>
+
+<header>
+<table class="main">
+<tr>
+
+<td class="one"> <font face="" size="5px" color="white"> Food Villa </font> </td>
+<td class="two"> <a href="index.html" style="text-decoration:none; color:white;">Home </a></td>
+<td class="two"> <a href="about.html" style="text-decoration:none; color:white;">About Us</a> </td>
+<td class="two"> <a href="menu.html" style="text-decoration:none; color:white;">Menu </a></td>
+<td class="two"> <a href="reservation.html" style="text-decoration:none; color:white;">Reservations </a></td>
+<td class="two"> <a href="contacts.html" style="text-decoration:none; color:white;">Contacts</a></td>
+</tr>
+</table>
+</header><br><br>
+<div class="container-8">
+	<table class="reservationtable" style="text-align:center;
+	padding:60px;
+	width:100%; font-size:10vh;">
+		<tr>
+		<td>Reservations</td>
+		</tr>
+		</table>
+	<img src="Reservation.jpg" alt="background-img"  />
+	<div class="reservation-content">
+		<table class="reservation">
+            <tr>
+                <td>First Name<td>
+                <td><input type="text" id="firstname" name="firstname">
+            </tr>
+            <tr>
+                <td>Last Name<td>
+                <td><input type="text" id="lastname" name="lastname">
+            </tr>
+            <tr>
+                <td>Date Of Birth<td>
+                <td><input type="date" id="dob" name="dob">
+            </tr>
+            <tr>
+                <td>Phone Number<td>
+                <td><input type="text" id="phonenumber" name="phonenumber">
+            </tr>
+            <tr>
+                <td>Email Address<td>
+                <td><input type="text" id="gmail" name="gmail">
+            </tr>
+            <tr>
+                <td>Date<td>
+                <td><input type="date" id="date" name="date">
+            </tr>
+            <tr>
+                <td>Time<td>
+                <td><input type="time" id="time" name="time">
+            </tr>
+            <tr>
+                <td></td>
+                <form action="">
+                   <td> <button class="tosetbutton" border="5" type="button" value="Send" onclick="validform()">Submit</button>
+                </form>
+            </tr>
+
+        </table>    
+
+	</div>
+</div>
+
+<footer>
+	<table class="footertable">
+	<tr>
+	<td class="footertabletr"><h4>TWITTER FEED</h4>
+    <p>@QUICKPRO5 @CSSDESIGNAWARDS Hey, please check your inbox for more details.</p>
+<p>@GEORGIAANNEUK Poedit is a software and you can download it here HTTPS://T.CO/SLOTDPS7JF. You can see how we use it… HTTPS://T.CO/AEBTHGZYRA</p></td>
+<td class="footertabletr"><h1>FOOD VILLA</h1><br>
+    <p>Mauris eget velit mauris.Suspendise nec odio nec turpis malesuada vestibulum at vitae eros proin in ligula sed.Mauris eget velit mauris.
+</p>
+    <p>+387648592568</p>
+    <p>Foodvilla@gmail.com</p>
+    <p>Abbotsford</p></td>
+	<td class="footertabletr">
+	 <h4>INSTAGRAM FEED</h4>
+    <p>@QUICKPRO5 @CSSDESIGNAWARDS Hey, please check your inbox for more details.</p>
+<p>@GEORGIAANNEUK Poedit is a software and you can download it here HTTPS://T.CO/SLOTDPS7JF. You can see how we use it… HTTPS://T.CO/AEBTHGZYRA</p>
+	</td>
+	</tr>
+	</table>
+	
+	</footer>
+</body>
+</html>

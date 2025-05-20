@@ -1,0 +1,110 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css"/>
+<title>www.title.com</title>
+<link rel="stylesheet" href="style.css"/>
+<script>
+	function validate() {
+    var first = document.getElementById("first_name").value;
+    var last = document.getElementById("last_name").value;
+    var number = document.getElementById("phone_number").value;
+    var email = document.getElementById("email_address").value;
+    var message = document.getElementById("message").value;
+
+    if (first == "" || last == "" || number == "" || email == "" || message == "") {
+        alert("Fill in all the fields");
+    } else {
+        alert("Thank you for reaching us out. We will get back to you as soon as possible");
+    }
+}
+
+</script>
+</head>
+<body>
+<header>
+<table class="main">
+<tr>
+
+<td class="one"> <font face="" size="5px" color="white"> Food Villa </font> </td>
+<td class="two"> <a href="index.html" style="text-decoration:none; color:white;">Home </a></td>
+<td class="two"> <a href="about.html" style="text-decoration:none; color:white;">About Us</a> </td>
+<td class="two"> <a href="menu.html" style="text-decoration:none; color:white;">Menu </a></td>
+<td class="two"> <a href="reservation.html" style="text-decoration:none; color:white;">Reservations </a></td>
+<td class="two"> <a href="contacts.html" style="text-decoration:none; color:white;">Contacts</a></td>
+</tr>
+    </table>
+	</header><br><br>
+	<div class="container-6">
+		<table class="contacttable" style="text-align:center;
+		padding:60px;
+		width:100%; font-size:10vh;">
+			<tr>
+			<td>Contact us</td>
+			</tr>
+			</table>
+        <img class="contact-us" src="contact-us.png" alt="background-img">
+		<div class="container-7">
+			<form>
+				<table class="contact">
+				<tr>
+				<td class="contact_us">Phone: </td> <td class="contact_us">+387648592568</td>
+				</tr>
+				<tr>
+				<td class="contact_us">Email:</td> <td class="contact_us"> Foodvilla@gmail.com</td>
+				</tr>
+					<tr>
+						<td  class="contact_us">Name</td>
+						<td><input type="text" name="textbox" size="30" id="first_name" /></td>
+					</tr>
+					<tr>
+						<td class="contact_us">Last Name</td>
+						<td><input type="text" name="textbox" size="30" id="last_name" /></td>
+					</tr>
+					<tr>
+						<td class="contact_us">Phone Number</td>
+						<td><input type="text" size="30" id="phone_number"/></td>
+					</tr>
+					<tr>
+						<td class="contact_us">Email Address</td>
+						<td><input type="text" size="30" id="email_address" /></td>
+					</tr>
+					<tr>
+						<td class="contact_us">Your message</td>
+						<td><textarea cols="40" rows="6" name="message" id="message">(Type your message here..)</textarea></td>
+					</tr>
+					
+					<tr>
+						<td></td>
+						<td class="sumbit"><button class="tosetbutton" type="button" onclick="validate()">Submit</button></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+    </div>
+<footer>
+	<table class="footertable">
+	<tr>
+	<td class="footertabletr"><h4>TWITTER FEED</h4>
+    <p>@QUICKPRO5 @CSSDESIGNAWARDS Hey, please check your inbox for more details.</p>
+<p>@GEORGIAANNEUK Poedit is a software and you can download it here HTTPS://T.CO/SLOTDPS7JF. You can see how we use it… HTTPS://T.CO/AEBTHGZYRA</p></td>
+<td class="footertabletr"><h1>FOOD VILLA</h1><br>
+    <p>Mauris eget velit mauris.Suspendise nec odio nec turpis malesuada vestibulum at vitae eros proin in ligula sed.Mauris eget velit mauris.
+</p>
+    <p>+387648592568</p>
+    <p>Foodvilla@gmail.com</p>
+    <p>Abbotsford</p></td>
+	<td class="footertabletr">
+	 <h4>INSTAGRAM FEED</h4>
+    <p>@QUICKPRO5 @CSSDESIGNAWARDS Hey, please check your inbox for more details.</p>
+<p>@GEORGIAANNEUK Poedit is a software and you can download it here HTTPS://T.CO/SLOTDPS7JF. You can see how we use it… HTTPS://T.CO/AEBTHGZYRA</p>
+	</td>
+	</tr>
+	</table>
+	
+	</footer>
+	
+	
+
+
+</body>
+</html>

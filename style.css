@@ -1,0 +1,167 @@
+body{
+margin:0px;
+padding:0px;
+}
+header{
+	position:fixed;
+	z-index:1000;
+}
+.main{
+	background-color:rgba(0,0,0,0.6);
+	padding:15px;
+}
+.one{
+	width:60%;
+}
+.two{
+	width:10%; 
+}
+body,html {
+            margin: 0;
+            padding: 0;
+        }
+        img {
+            height: auto;
+            width: 100%;
+            
+        }
+        div.container {
+            height: auto;
+            width: 100%;
+            position:relative;
+        }
+        div.main-heading {
+            position: absolute;
+            top: 19%;
+            left: 60%;
+            padding-right: 5%;
+            color: white;
+            
+        }
+        p.main-heading {
+            font-size: 10vh;
+            margin-bottom: 0;
+        }
+        p.sub-heading {
+            font-size: 3vh;
+            margin-top: 0;
+        }
+
+        div.container-2 {
+            width: 100%;
+            height: auto;
+            margin-bottom: 5%;
+           
+           
+        }
+        table.content {
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 5%;
+        }
+        
+        
+        td.content-img:hover {
+            background-color: rgba(0,0,0,0.5);
+            color: white;
+			transition:4s;
+			
+        }
+        td.content-img {
+            height: auto;
+            width: 28%;
+            
+            text-align: center;
+            color: rgb(39, 39, 39);
+            font-size: 4vh;
+            font-family: 'Times New Roman', Times, serif;
+            border: 2px solid black;
+           border-radius:25px;
+            padding-left: 5%;
+            padding-right: 5%;
+            
+            
+        }
+        a.header {
+            text-decoration: none;
+            color: white;
+        }
+        img.content {
+            height: 30vh;
+            width: 30vh;
+        }
+        td.space {
+            height: auto;
+            width: 2.5%;
+        }
+        p.center {
+            text-align: center;
+            font-weight: bold;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+        div.container-3 {
+            height: auto;
+            width: 100%;
+            background-color: rgb(86,86,86);
+            
+        }
+		.tablereviews{
+			margin:40px;
+			text-align:center;
+			
+		}
+		.tablereviewstd{
+			padding:20px;
+		}
+
+table.footertable{
+	padding:40px;
+	color: white;
+	text-align: center;
+	background-color: rgba(0,0,0,0.8);
+}
+td.footertabletr{
+	padding:20px;
+}
+div.container-6 {
+    height: auto;
+    width: 100%;
+}
+div.container-7 {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    left: 40%;
+}
+td.contact_us {
+    padding: 10px;
+    color: white;
+    font-size: 3vh;
+}
+
+div.container-8 {
+    height: auto;
+    width: 100%;
+}
+div.reservation-content {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    
+}
+table.reservation {
+    color: white;
+    font-size: 4vh;
+    border: 2px solid white;
+    border-radius:25px;
+    padding: 75px;
+}
+.tosetbutton{
+	padding:10px;
+	padding-right:20px;
+	padding-left:20px;
+	border:2px solid black;
+	border-radius:10px;
+}
